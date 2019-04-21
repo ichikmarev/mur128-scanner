@@ -150,7 +150,49 @@ namespace mur128m_scanner{
         {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  u
         {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  u
         
-        {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  u
+        {const_cast<char32_t*>(U"r"),   Lexem_code::Id,           136}, // 0:  o
+        {const_cast<char32_t*>(U"n"),   Lexem_code::Id,           137}, // 0:  o
+        {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  o
+        
+        {const_cast<char32_t*>(U"o"),   Lexem_code::Id,           139}, // 0:  x
+        {const_cast<char32_t*>(U"r"),   Lexem_code::Id,           140}, // 0:  x
+        {const_cast<char32_t*>(U"n"),   Lexem_code::Id,           141}, // 0:  x
+        {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  x
+        
+        {const_cast<char32_t*>(U"s"),   Lexem_code::Id,           143}, // 0:  l
+        {const_cast<char32_t*>(U"h"),   Lexem_code::Id,           144}, // 0:  l
+        {const_cast<char32_t*>(U"i"),   Lexem_code::Id,           145}, // 0:  l
+        {const_cast<char32_t*>(U"f"),   Lexem_code::Id,           146}, // 0:  l
+        {const_cast<char32_t*>(U"t"),   Lexem_code::Id,           147}, // 0:  l
+        {const_cast<char32_t*>(U"s"),   Lexem_code::Id,           148}, // 0:  l
+        {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  l
+        
+        {const_cast<char32_t*>(U"o"),   Lexem_code::Id,           150}, // 0:  n
+        {const_cast<char32_t*>(U"t"),   Lexem_code::Id,           151}, // 0:  n
+        {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  n
+        
+        {const_cast<char32_t*>(U"r"),   Lexem_code::Id,           153}, // 0:  t
+        {const_cast<char32_t*>(U"a"),   Lexem_code::Id,           154}, // 0:  t
+        {const_cast<char32_t*>(U"p"),   Lexem_code::Id,           155}, // 0:  t
+        {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  t
+        
+        //r
+        
+        {const_cast<char32_t*>(U"t"),   Lexem_code::Id,           189}, // 0:  s
+        {const_cast<char32_t*>(U"r"),   Lexem_code::Id,           190}, // 0:  s
+        {const_cast<char32_t*>(U"i"),   Lexem_code::Id,           191}, // 0:  s
+        {const_cast<char32_t*>(U"n"),   Lexem_code::Id,           192}, // 0:  s
+        {const_cast<char32_t*>(U"g"),   Lexem_code::Id,           193}, // 0:  s
+        {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  s
+        
+        {const_cast<char32_t*>(U"ou"),   Lexem_code::Id,           195}, // 0:  p
+        {const_cast<char32_t*>(U"s"),   Lexem_code::Id,           196}, // 0:  p
+        {const_cast<char32_t*>(U"p"),   Lexem_code::Id,           197}, // 0:  p
+        {const_cast<char32_t*>(U"h"),   Lexem_code::Id,           198}, // 0:  p
+        {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  p
+        {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  p
+        
+        //m
     
     };
 };
