@@ -1,1 +1,1 @@
-Testing of a scanner of the programming language Рысь.
+Сканер для ассемблера учебного процессора МУР128М
