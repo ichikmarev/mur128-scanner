@@ -149,6 +149,8 @@ namespace mur128m_scanner{
         {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  u
         {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  u
         {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  u
+        
+        {const_cast<char32_t*>(U""),   Lexem_code::Id,           0}, // 0:  u
     
     };
 };
