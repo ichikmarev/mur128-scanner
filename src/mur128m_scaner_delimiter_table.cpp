@@ -9,7 +9,7 @@
 
 #include "../include/lynx_scaner_delimiter_table.h"
 
-namespace lynx_scanner{
+namespace mur128m_scanner{
     const trans_table::Elem<Lexem_code> delimiters_jump_table[] = {
         {const_cast<char32_t*>(U":"),      Lexem_code::Sq_br_opened,                 1}, // 0:   [
         {const_cast<char32_t*>(U""),       Lexem_code::Sq_br_colon_opened,           0}, // 1:   [:

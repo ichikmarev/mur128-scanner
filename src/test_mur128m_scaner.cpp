@@ -9,16 +9,16 @@
 
 #include <cstdio>
 #include "../include/test_lynx_scaner.h"
-#include "../include/lynx_lexeme.h"
+#include "../include/mur128m_lexeme.h"
 
-void test_lynx_scaner(const std::shared_ptr<lynx_scanner::Scanner>& lynxsc)
+void test_mur128m_scaner(const std::shared_ptr<mur128m_scanner::Scanner>& lynxsc)
 {
-    lynx_scanner::Lynx_token lti;
-    lynx_scanner::Lexem_code llc;
+    mur128m_scanner::mur128m_token lti;
+    mur128m_scanner::Lexem_code llc;
     do{
-        lti    = lynxsc->current_lexeme();
+        lti    = mur128msc->current_lexeme();
         llc   = lti.lexeme_.code_;
-        auto s = lynxsc->token_to_string(lti);
+        auto s = mur128msc->token_to_string(lti);
         puts(s.c_str());
-    }while(llc != lynx_scanner::Lexem_code::Nothing);
+    }while(llc != mur128m_scanner::Lexem_code::Nothing);
 }

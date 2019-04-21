@@ -10,8 +10,8 @@
 #ifndef LYNX_SCANER_KEYWORD_TABLE_H
 #define LYNX_SCANER_KEYWORD_TABLE_H
 #   include "../include/elem.h"
-#   include "../include/lynx_lexeme.h"
-namespace lynx_scanner{
+#   include "../include/mur128m_lexeme.h"
+namespace mur128m_scanner{
     extern const trans_table::Elem<Lexem_code> keywords_jump_table[];
 };
 #endif
