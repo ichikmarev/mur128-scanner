@@ -1,10 +1,6 @@
 /*
     File:    keyword_init_table.cpp
-    Created: 10 February 2019 at 10:49 Moscow time
-    Author:  Гаврилов Владимир Сергеевич
-    E-mails: vladimir.s.gavrilov@gmail.com
-             gavrilov.vladimir.s@mail.ru
-             gavvs1977@yandex.ru
+    Author:  Chikmarev Ilya
 */
 
 #include "../include/keyword_init_table.h"

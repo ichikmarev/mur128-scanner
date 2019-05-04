@@ -1,17 +1,13 @@
 /*
-    File:    test_lynx_scaner.cpp
-    Created: 12 March 2019 at 09:13 Moscow time
-    Author:  Гаврилов Владимир Сергеевич
-    E-mails: vladimir.s.gavrilov@gmail.com
-             gavrilov.vladimir.s@mail.ru
-             gavvs1977@yandex.ru
+    File:    test_mur128m_scaner.cpp
+    Author:  Chikmarev Ilya
 */
 
 #include <cstdio>
-#include "../include/test_lynx_scaner.h"
+#include "../include/test_mur128m_scaner.h"
 #include "../include/mur128m_lexeme.h"
 
-void test_mur128m_scaner(const std::shared_ptr<mur128m_scanner::Scanner>& lynxsc)
+void test_mur128m_scaner(const std::shared_ptr<mur128m_scanner::Scanner>& mur128msc)
 {
     mur128m_scanner::mur128m_token lti;
     mur128m_scanner::Lexem_code llc;

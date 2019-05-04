@@ -1,14 +1,10 @@
 /*
-    File:    lynx_scaner_delimiter_table.h
-    Created: 25 March 2019 at 17:31 Moscow time
-    Author:  Гаврилов Владимир Сергеевич
-    E-mails: vladimir.s.gavrilov@gmail.com
-             gavrilov.vladimir.s@mail.ru
-             gavvs1977@yandex.ru
+    File:    mur128m_scaner_delimiter_table.h
+    Author:  Chikmarev Ilya
 */
 
-#ifndef LYNX_SCANER_DELIMITER_TABLE_H
-#define LYNX_SCANER_DELIMITER_TABLE_H
+#ifndef mur128m_SCANER_DELIMITER_TABLE_H
+#define mur128m_SCANER_DELIMITER_TABLE_H
 #   include "../include/elem.h"
 #   include "../include/mur128m_lexeme.h"
 namespace mur128m_scanner{

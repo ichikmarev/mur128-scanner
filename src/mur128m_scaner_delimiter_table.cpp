@@ -1,13 +1,9 @@
 /*
-    File:    lynx_scaner_delimiter_table.cpp
-    Created: 25 March 2019 at 17:35 Moscow time
-    Author:  Гаврилов Владимир Сергеевич
-    E-mails: vladimir.s.gavrilov@gmail.com
-             gavrilov.vladimir.s@mail.ru
-             gavvs1977@yandex.ru
+    File:    mur128m_scaner_delimiter_table.cpp
+    Author:  Chikmarev Ilya
 */
 
-#include "../include/lynx_scaner_delimiter_table.h"
+#include "../include/mur128m_scaner_delimiter_table.h"
 
 namespace mur128m_scanner{
     const trans_table::Elem<Lexem_code> delimiters_jump_table[] = {
@@ -39,7 +35,7 @@ namespace mur128m_scanner{
         {const_cast<char32_t*>(U""),     Lexem_code::Remainder,                    0}, // 14:  %
 
         {const_cast<char32_t*>(U""),     Lexem_code::Bitwise_or,                   0}, // 15:  |
-        
+
         {const_cast<char32_t*>(U""),     Lexem_code::Bitwise_and,                  0}, // 16:  &
 
         {const_cast<char32_t*>(U">"),     Lexem_code::Greater_than,                 17}, // 17:  >

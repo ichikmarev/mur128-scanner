@@ -1,16 +1,13 @@
 /*
-    File:    lynx_lexeme.h
-    Created: 09 February 2019 at 11:41 Moscow time
-    Author:  Гаврилов Владимир Сергеевич
-    E-mails: vladimir.s.gavrilov@gmail.com
-             gavrilov.vladimir.s@mail.ru
-             gavvs1977@yandex.ru
+    File:    mur128m_lexeme.h
+    Author:  Chikmarev Ilya
 */
-#ifndef LYNX_LEXEME_H
-#define LYNX_LEXEME_H
+#ifndef mur128m_LEXEME_H
+#define mur128m_LEXEME_H
 #include <cstddef>
 #include <quadmath.h>
-namespace lynx_scanner{
+
+namespace mur128m_scanner{
     enum class Lexem_code : uint16_t{
         Nothing,                     UnknownLexem,
         Section,                     Readable,
