@@ -8,11 +8,12 @@
 
 namespace mur128m_scanner{
     const State_for_char keyword_init_table[] = {
-        {0,   U'a'}, {20,  U'b'}, {56,  U'c'},
-        {64,  U'd'}, {67,  U'f'}, {71,  U'l'},
-        {83,  U'm'}, {100, U'n'}, {112, U'o'},
-        {130, U'p'}, {135, U'r'}, {147, U's'},
-        {172, U't'}, {178, U'u'}, {198, U'x'}
+        {2,   U'a'}, {0,   U'b'}, {13,  U'c'},
+        {53,  U'd'}, {66,  U'f'}, {106, U'i'},
+        {86,  U'j'}, {138, U'l'}, {196, U'm'},
+        {145, U'n'}, {131, U'o'}, {190, U'p'},
+        {152, U'r'}, {184, U's'}, {148, U't'},
+        {118, U'u'}, {134, U'x'}
     };
 
     const std::size_t    keyword_init_table_size = size(keyword_init_table);
