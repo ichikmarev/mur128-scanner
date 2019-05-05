@@ -739,11 +739,6 @@ namespace mur128m_scanner{
                 t      =  true;
                 lexeme_pos_.end_pos_.line_pos_++;
                 (loc_->pos_.line_pos_)++;
-            }else{
-                correct_delimiter(code);
-                t = (code == Lexem_code::Comment_end)   ||
-                    (code == Lexem_code::Comment_begin);
-                (loc_->pcurrent_char_)--;
             }
             return t;
         }
@@ -1440,51 +1435,51 @@ namespace mur128m_scanner{
 
     void Scanner::correct_delimiter(Lexem_code code)
     {
-        switch(code){
-            case Lexem_code::Maybe_logical_or_not:
-                print_diagnostic(expected_logical_or_not,
-                                 loc_->pos_.line_no_,
-                                 loc_->pos_.line_pos_);
-                en_->increment_number_of_errors();
-                token_.lexeme_.code_      = Lexem_code::Logical_or_not;
-                break;
-            case Lexem_code::Maybe_logical_and_not:
-                print_diagnostic(expected_logical_and_not,
-                                 loc_->pos_.line_no_,
-                                 loc_->pos_.line_pos_);
-                en_->increment_number_of_errors();
-                token_.lexeme_.code_      = Lexem_code::Logical_and_not;
-                break;
-            case Lexem_code::Maybe_component:
-                print_diagnostic(expected_component,
-                                 loc_->pos_.line_no_,
-                                 loc_->pos_.line_pos_);
-                en_->increment_number_of_errors();
-                token_.lexeme_.code_      = Lexem_code::Component;
-                break;
-            case Lexem_code::Maybe_component_or:
-                print_diagnostic(expected_component_or,
-                                 loc_->pos_.line_no_,
-                                 loc_->pos_.line_pos_);
-                en_->increment_number_of_errors();
-                token_.lexeme_.code_      = Lexem_code::Component_or;
-                break;
-            case Lexem_code::Comment_begin:
-                comment_level_ = 1;
-                automaton_     = Automaton_name::Comment;
-                state_         = -1;
-                break;
-            case Lexem_code::Comment_end:
-                print_diagnostic(unexpected_mark_of_comment_end,
-                                 loc_->pos_.line_no_,
-                                 loc_->pos_.line_pos_);
-                en_->increment_number_of_errors();
-                token_.lexeme_.code_      = Lexem_code::Nothing;
-                automaton_                = Automaton_name::Start;
-                break;
-            default:
-                ;
-        }
+        // switch(code){
+        //     case Lexem_code::Maybe_logical_or_not:
+        //         print_diagnostic(expected_logical_or_not,
+        //                          loc_->pos_.line_no_,
+        //                          loc_->pos_.line_pos_);
+        //         en_->increment_number_of_errors();
+        //         token_.lexeme_.code_      = Lexem_code::Logical_or_not;
+        //         break;
+        //     case Lexem_code::Maybe_logical_and_not:
+        //         print_diagnostic(expected_logical_and_not,
+        //                          loc_->pos_.line_no_,
+        //                          loc_->pos_.line_pos_);
+        //         en_->increment_number_of_errors();
+        //         token_.lexeme_.code_      = Lexem_code::Logical_and_not;
+        //         break;
+        //     case Lexem_code::Maybe_component:
+        //         print_diagnostic(expected_component,
+        //                          loc_->pos_.line_no_,
+        //                          loc_->pos_.line_pos_);
+        //         en_->increment_number_of_errors();
+        //         token_.lexeme_.code_      = Lexem_code::Component;
+        //         break;
+        //     case Lexem_code::Maybe_component_or:
+        //         print_diagnostic(expected_component_or,
+        //                          loc_->pos_.line_no_,
+        //                          loc_->pos_.line_pos_);
+        //         en_->increment_number_of_errors();
+        //         token_.lexeme_.code_      = Lexem_code::Component_or;
+        //         break;
+        //     case Lexem_code::Comment_begin:
+        //         comment_level_ = 1;
+        //         automaton_     = Automaton_name::Comment;
+        //         state_         = -1;
+        //         break;
+        //     case Lexem_code::Comment_end:
+        //         print_diagnostic(unexpected_mark_of_comment_end,
+        //                          loc_->pos_.line_no_,
+        //                          loc_->pos_.line_pos_);
+        //         en_->increment_number_of_errors();
+        //         token_.lexeme_.code_      = Lexem_code::Nothing;
+        //         automaton_                = Automaton_name::Start;
+        //         break;
+        //     default:
+        //         ;
+        // }
     }
 
     void Scanner::string_final_proc()
