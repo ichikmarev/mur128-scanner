@@ -1,0 +1,7 @@
+[line: 3, pos: 8]--[line: 3, pos: 15] lexeme: Id function
+[line: 3, pos: 17]--[line: 3, pos: 21] lexeme: Id Hello
+[line: 3, pos: 23]--[line: 3, pos: 23] lexeme: Curly_brace_opened
+[line: 4, pos: 1]--[line: 4, pos: 1] lexeme: Curly_brace_closed
+[line: 4, pos: 2]--[line: 4, pos: 2] lexeme: Nothing
+
+Total errors 0
