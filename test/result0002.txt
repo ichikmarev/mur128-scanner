@@ -1,0 +1,8 @@
+[line: 1, pos: 1]--[line: 1, pos: 1] lexeme: Sq_br_opened
+[line: 1, pos: 5]--[line: 1, pos: 5] lexeme: Sq_br_closed
+[line: 1, pos: 14]--[line: 1, pos: 14] lexeme: Sq_br_closed
+[line: 1, pos: 22]--[line: 1, pos: 22] lexeme: Round_br_closed
+[line: 3, pos: 4]--[line: 3, pos: 4] lexeme: Logical_not
+[line: 3, pos: 5]--[line: 3, pos: 5] lexeme: Nothing
+
+Total errors 0

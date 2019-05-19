@@ -8,11 +8,11 @@
 namespace mur128m_scanner{
     const trans_table::Elem<Lexem_code> delimiters_jump_table[] = {
         {const_cast<char32_t*>(U""),      Lexem_code::Sq_br_opened,                 0}, // 0:   [
-        {const_cast<char32_t*>(U""),      Lexem_code::Round_br_opened,              0}, // 1:   (
-        {const_cast<char32_t*>(U""),      Lexem_code::Sq_br_closed,                 0}, // 2:   ]
-        {const_cast<char32_t*>(U""),      Lexem_code::Round_br_closed,              0}, // 3:  )
+        {const_cast<char32_t*>(U""),      Lexem_code::Sq_br_closed,                 0}, // 1:   ]
+        {const_cast<char32_t*>(U""),      Lexem_code::Round_br_opened,              0}, // 2:   (
+        {const_cast<char32_t*>(U""),      Lexem_code::Round_br_closed,              0}, // 3:   )
 
-        {const_cast<char32_t*>(U"<"),     Lexem_code::Less_than,                    4}, // 4:  <
+        {const_cast<char32_t*>(U"<"),     Lexem_code::Less_than,                    5}, // 4:  <
         {const_cast<char32_t*>(U""),      Lexem_code::Left_shift,                   0}, // 5:  <<
 
         {const_cast<char32_t*>(U""),      Lexem_code::Minus,                        0}, // 6:  -
@@ -37,7 +37,7 @@ namespace mur128m_scanner{
 
         {const_cast<char32_t*>(U""),      Lexem_code::Bitwise_and,                  0}, // 16:  &
 
-        {const_cast<char32_t*>(U">"),     Lexem_code::Greater_than,                 17}, // 17:  >
+        {const_cast<char32_t*>(U">"),     Lexem_code::Greater_than,                 18}, // 17:  >
         {const_cast<char32_t*>(U""),      Lexem_code::Right_shift,                  0}, // 18:  >>
 
         {const_cast<char32_t*>(U""),      Lexem_code::Curly_brace_opened,           0}, // 19:  {
