@@ -1,0 +1,7 @@
+[line: 1, pos: 1]--[line: 1, pos: 4] lexeme: Id addn
+[line: 3, pos: 1]--[line: 3, pos: 3] lexeme: Id add
+[line: 4, pos: 1]--[line: 4, pos: 3] lexeme: Id wqw
+[line: 5, pos: 1]--[line: 5, pos: 8] lexeme: Id writable
+[line: 6, pos: 1]--[line: 6, pos: 1] lexeme: Nothing
+
+Total errors 0
