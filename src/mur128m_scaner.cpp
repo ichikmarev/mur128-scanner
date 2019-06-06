@@ -43,7 +43,6 @@ namespace mur128m_scanner{
     	{{U']', U'^'},  32        },    {{U'a', U'a'},  4124      },  {{U'c', U'c'},  4124      },    
     	{{U'e', U'e'},  135180    },    {{U'g', U'h'},  12        },  {{U'k', U'k'},  12        }
 };
-
     static constexpr size_t   num_of_elems_in_categories_table = size(categories_table);
     static constexpr uint64_t other_as_int = static_cast<uint64_t>(Category::Other);
 
@@ -210,7 +209,7 @@ namespace mur128m_scanner{
     }
 
     /**
-     * A regular expression for numbers of the programming language Рысь can be written
+     * A regular expression for numbers of the programming language МУР128 can be written
      * in the form
      *    abc(d?c)* | (a|e)(d?(a|e))*(f(a|e)(d?(a|e))*)?(gh?(a|e)(d?(a|e))*)?j?i?   (1)
      * where
@@ -743,7 +742,7 @@ namespace mur128m_scanner{
     }
 
     /**
-     * A regular expression for quoted string literals of the programming language Рысь
+     * A regular expression for quoted string literals of the programming language МУР128
      * can be written in the form
      *     g(h|gg)*g, (0)
      * where
@@ -880,7 +879,7 @@ namespace mur128m_scanner{
 
     /**
      *
-     * A regular expression for quoted character literals of the programming language Рысь
+     * A regular expression for quoted character literals of the programming language МУР128
      * can be written in the form
      *     d(i|dd)d, (1)
      * where
