@@ -1,6 +1,19 @@
 [line: 2, pos: 4]--[line: 2, pos: 6] lexeme: Char 'А'
 [line: 2, pos: 9]--[line: 2, pos: 11] lexeme: Char 'Б'
 [line: 2, pos: 14]--[line: 2, pos: 16] lexeme: Char 'В'
-[line: 2, pos: 17]--[line: 2, pos: 17] lexeme: Nothing
+[line: 4, pos: 1]--[line: 4, pos: 3] lexeme: Char 'ϳ'
+[line: 4, pos: 7]--[line: 4, pos: 9] lexeme: Char 'ϴ'
+[line: 4, pos: 13]--[line: 4, pos: 15] lexeme: Char 'ϵ'
+[line: 4, pos: 18]--[line: 4, pos: 20] lexeme: Char '϶'
+[line: 6, pos: 1]--[line: 6, pos: 5] lexeme: Char 'A'
+[line: 8, pos: 13]--[line: 8, pos: 18] lexeme: Char 'C'
+[line: 10, pos: 16]--[line: 10, pos: 26] lexeme: Char 'B'
+[line: 13, pos: 15]--[line: 13, pos: 67] lexeme: String This is the long english string to test my scanner!
+[line: 15, pos: 13]--[line: 19, pos: 29] lexeme: String Его стихов пленительная сладость
+Пройдет веков завистливую даль,
+И, внемля им, вздохнет о славе младость,
+Утешится безмолвная печаль
+И резвая задумается радость.
+[line: 20, pos: 1]--[line: 20, pos: 1] lexeme: Nothing
 
 Total errors 0

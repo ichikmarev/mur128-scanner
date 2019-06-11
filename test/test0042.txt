@@ -1,5 +1,20 @@
+bp 
 
+absf addf and addi
 
-       function Hello {
+char
+chsf
 
-}
+cmpf
+
+call
+ callpr
+
+  callnzr
+     calller
+complex128 complex32 complex64 complex80
+
+divf
+divmodis
+
+float64 format

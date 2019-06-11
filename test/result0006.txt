@@ -1,4 +1,4 @@
-[line: 1, pos: 1]--[line: 1, pos: 1] lexeme: Point
+[line: 1, pos: 1]--[line: 1, pos: 1] lexeme: Point	
 [line: 1, pos: 2]--[line: 1, pos: 2] lexeme: Comma
 [line: 3, pos: 2]--[line: 3, pos: 2] lexeme: Semicolon
 [line: 4, pos: 1]--[line: 4, pos: 1] lexeme: Logical_not
@@ -19,6 +19,5 @@
 [line: 10, pos: 6]--[line: 10, pos: 6] lexeme: Sq_br_closed
 [line: 10, pos: 7]--[line: 10, pos: 7] lexeme: Round_br_opened
 [line: 10, pos: 8]--[line: 10, pos: 8] lexeme: Round_br_closed
-[line: 10, pos: 9]--[line: 10, pos: 9] lexeme: Nothing
 
 Total errors 0

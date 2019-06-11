@@ -1,7 +1,23 @@
-[line: 3, pos: 8]--[line: 3, pos: 15] lexeme: Id function
-[line: 3, pos: 17]--[line: 3, pos: 21] lexeme: Id Hello
-[line: 3, pos: 23]--[line: 3, pos: 23] lexeme: Curly_brace_opened
-[line: 4, pos: 1]--[line: 4, pos: 1] lexeme: Curly_brace_closed
-[line: 4, pos: 2]--[line: 4, pos: 2] lexeme: Nothing
+[line: 1, pos: 1]--[line: 1, pos: 2] lexeme: Register
+[line: 3, pos: 1]--[line: 3, pos: 4] lexeme: Register
+[line: 3, pos: 6]--[line: 3, pos: 9] lexeme: Register
+[line: 3, pos: 11]--[line: 3, pos: 13] lexeme: Register
+[line: 3, pos: 15]--[line: 3, pos: 18] lexeme: Register
+[line: 5, pos: 1]--[line: 5, pos: 4] lexeme: KwChar
+[line: 6, pos: 1]--[line: 6, pos: 4] lexeme: Register
+[line: 8, pos: 1]--[line: 8, pos: 4] lexeme: Register
+[line: 10, pos: 1]--[line: 10, pos: 4] lexeme: Register
+[line: 11, pos: 2]--[line: 11, pos: 7] lexeme: Register
+[line: 13, pos: 3]--[line: 13, pos: 9] lexeme: Register
+[line: 14, pos: 6]--[line: 14, pos: 12] lexeme: Register
+[line: 15, pos: 1]--[line: 15, pos: 10] lexeme: Complex128
+[line: 15, pos: 12]--[line: 15, pos: 20] lexeme: Complex32
+[line: 15, pos: 22]--[line: 15, pos: 30] lexeme: Complex64
+[line: 15, pos: 32]--[line: 15, pos: 40] lexeme: Complex80
+[line: 17, pos: 1]--[line: 17, pos: 4] lexeme: Register
+[line: 18, pos: 1]--[line: 18, pos: 8] lexeme: Register
+[line: 20, pos: 1]--[line: 20, pos: 7] lexeme: KwFloat64
+[line: 20, pos: 9]--[line: 20, pos: 14] lexeme: KwFormat
+[line: 21, pos: 1]--[line: 21, pos: 1] lexeme: Nothing
 
 Total errors 0
