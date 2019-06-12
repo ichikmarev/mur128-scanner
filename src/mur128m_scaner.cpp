@@ -1583,13 +1583,22 @@ namespace mur128m_scanner{
 
     static const std::string code_names[] = {
         "Nothing",                     "UnknownLexem",
-        "Section",                     "Readable",
-        "Writable",                    "Executable",
+        "KwSection",                   "KwReadable",
+        "KwWritable",                  "KwExecutable",
         "Id",                          "Integer",
+        "KwFloat32",                   "KwFloat64",
+        "KwFloat80",                   "KwFloat128",
+	"KwInt32",                     "KwInt64",
+        "KwInt128",		       "KwInt8",
+	"KwInt16",		       "KwUInt32",
+        "KwUInt64",		       "KwUInt128",
+	"KwUInt8",		       "KwUInt16",
         "Float32",                     "Float64",
         "Float80",                     "Float128",
         "Complex32",                   "Complex64",
         "Complex80",                   "Complex128",
+	"KwComplex32",                 "KwComplex64",
+        "KwComplex80",                 "KwComplex128",
         "String",                      "Char",
         "Sq_br_opened",                "Round_br_opened",
         "Sq_br_closed",                "Round_br_closed",
@@ -1601,7 +1610,9 @@ namespace mur128m_scanner{
         "Remainder",                   "Bitwise_or",
         "Bitwise_and",                 "Greater_than",
         "Right_shift",                 "Curly_brace_opened",
-        "Curly_brace_closed",          "Comma"
+        "Curly_brace_closed",          "Comma",
+	"Register",		       "KwChar",
+	"KwFormat",		       "KwString"
     };
 
     std::string Scanner::lexeme_to_string(const mur128m_scanner::Lexeme_info& li)

@@ -18,6 +18,27 @@
 [line: 18, pos: 1]--[line: 18, pos: 8] lexeme: Register
 [line: 20, pos: 1]--[line: 20, pos: 7] lexeme: KwFloat64
 [line: 20, pos: 9]--[line: 20, pos: 14] lexeme: KwFormat
-[line: 21, pos: 1]--[line: 21, pos: 1] lexeme: Nothing
+[line: 21, pos: 7]--[line: 21, pos: 13] lexeme: KwFloat80
+[line: 24, pos: 1]--[line: 24, pos: 3] lexeme: Register
+[line: 24, pos: 5]--[line: 24, pos: 9] lexeme: Register
+[line: 27, pos: 1]--[line: 27, pos: 4] lexeme: KwInt8
+[line: 27, pos: 6]--[line: 27, pos: 11] lexeme: KwInt128
+[line: 27, pos: 13]--[line: 27, pos: 17] lexeme: KwInt16
+[line: 29, pos: 2]--[line: 29, pos: 7] lexeme: KwUInt64
+[line: 31, pos: 1]--[line: 31, pos: 3] lexeme: Register
+[line: 33, pos: 1]--[line: 33, pos: 3] lexeme: Register
+[line: 35, pos: 1]--[line: 35, pos: 6] lexeme: Register
+[line: 37, pos: 1]--[line: 37, pos: 3] lexeme: Register
+[line: 39, pos: 1]--[line: 39, pos: 4] lexeme: Register
+[line: 41, pos: 1]--[line: 41, pos: 8] lexeme: KwReadable
+[line: 41, pos: 10]--[line: 41, pos: 13] lexeme: Register
+[line: 41, pos: 15]--[line: 41, pos: 20] lexeme: Register
+[line: 43, pos: 3]--[line: 43, pos: 6] lexeme: Register
+[line: 43, pos: 8]--[line: 43, pos: 10] lexeme: Register
+[line: 44, pos: 2]--[line: 44, pos: 7] lexeme: KwString
+[line: 44, pos: 9]--[line: 44, pos: 15] lexeme: KwSection
+[line: 46, pos: 1]--[line: 46, pos: 8] lexeme: KwWritable
+[line: 46, pos: 10]--[line: 46, pos: 19] lexeme: KwExecutable
+[line: 47, pos: 1]--[line: 47, pos: 1] lexeme: Nothing
 
 Total errors 0

@@ -17,4 +17,30 @@ complex128 complex32 complex64 complex80
 divf
 divmodis
 
-float64 format
+float64 format 
+						float80
+
+
+jmp jmpsr
+
+
+int8 int128 int16
+
+	uint64
+
+orn
+
+xor
+
+lshift
+
+not
+
+trap
+
+readable retz roundg
+
+		push pop
+	string section
+
+writable executable
