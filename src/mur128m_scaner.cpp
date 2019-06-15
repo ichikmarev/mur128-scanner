@@ -333,14 +333,8 @@ namespace mur128m_scanner{
         "Error at %zu:%zu: expected !||\n";
     static const char* expected_logical_and_not         =
         "Error at %zu:%zu: expected !&&\n";
-    static const char* expected_component               =
-        "Error at %zu:%zu: expected {..}\n";
     static const char* expected_component_or            =
         "Error at %zu:%zu: expected .|.\n";
-    static const char* unexpected_mark_of_comment_end   =
-        "Error at %zu:%zu: unexpected mark of comment end (i.e. */)\n";
-    static const char* unexpected_end_of_comment        =
-        "Error at %zu:%zu: unexpected end of comment.\n";
     static const char* expected_digit_of_char_code      =
         "Error at %zu:%zu: expected a digit of a character code.\n";
     static const char* expected_quote                   =
@@ -349,9 +343,9 @@ namespace mur128m_scanner{
         "Error at %zu:%zu: unexpected end of a character literal.\n";
     static const char* unexpected_end_of_string_literal =
         "Error at %zu:%zu: unexpected end of a string literal.\n";
-//     static const char* unexpected_char_in_char_code   =
-//         "Error at %zu:%zu: unexpected character in character code at "
-//         "processing of string literal.\n";
+    static const char* unexpected_char_in_char_code   =
+        "Error at %zu:%zu: unexpected character in character code at "
+        "processing of string literal.\n";
 
     template<typename... T>
     static void print_diagnostic(const char* msg, T... args)
@@ -1612,7 +1606,11 @@ namespace mur128m_scanner{
         "Right_shift",                 "Curly_brace_opened",
         "Curly_brace_closed",          "Comma",
 	"Register",		       "KwChar",
-	"KwFormat",		       "KwString"
+	"KwFormat",		       "KwString",
+	RegisterBp, KwAnd, KwAbsf, KwAddi,KwAndn,KwCall,KwChar,KwChfs,KwCmpf,KwCalls,KwCallr,KwCallz,KwCalln,KwCallp, KwCallsr,KwCallzr,KwCallge,  KwCallpr, KwCallger,KwCallnzr,KwCalller,KwDivf,KwDivis,KwDiviu,KwDivmodis,
+KwDivmodiu,KwFld1,KwFldz,KwFrac,KwJmp,KwJmpr,KwJmpge,KwJmple,KwJmpnz,KwJmppr,KwJmpsr, KwJmpzr,KwJmpger,KwJmpler, KwJmpnzr,KwOr,KwOrn,KwXor,KwXorn,KwLshift,KwLshifts,KwNot,KwTrap,KwRetz,
+KwReti,KwRetl,KwRetn,KwRetp,KwRetge,KwRetnz,KwRetag,KwRetai,KwRetap,KwRetal,KwRetaz,KwRetan,KwRets,KwRege,
+KwRetale,KwRetanz,KwRoundg,KwRoundn,KwRoundl,KwRoundt,KwRshift,KwRshifts,KwReadable,KwPop,KwPush
     };
 
     std::string Scanner::lexeme_to_string(const mur128m_scanner::Lexeme_info& li)
