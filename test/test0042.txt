@@ -38,9 +38,18 @@ not
 
 trap
 
+r0 r1
+r30
 readable retz roundg
 
 		push pop
 	string section
 
 writable executable
+
+sp bp
+
+f0 f1
+
+addf
+
